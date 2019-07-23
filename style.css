@@ -302,32 +302,32 @@ section:nth-of-type(3) a {
   color: inherit;
 }
 
-section:nth-of-type(3) .portfolio-wrap {
+section:nth-of-type(3) .experience-wrap {
   margin: 0 0 50px 0;
   padding: 0 2px;
   max-width: 450px;
   cursor: pointer;
 }
 
-section:nth-of-type(3) .portfolio-wrap .fade-wrap {
+section:nth-of-type(3) .experience-wrap .fade-wrap {
   transition: opacity 0.3s;
 }
 
-section:nth-of-type(3) .portfolio-wrap #thumb-1 {
+section:nth-of-type(3) .experience-wrap #thumb-1 {
   background: url(img/codementor.png) center center/cover;
 }
 
-section:nth-of-type(3) .portfolio-wrap #thumb-2 {
+section:nth-of-type(3) .experience-wrap #thumb-2 {
   min-width: 445px;
   background: url(https://static1.squarespace.com/static/597767db3a041174f5e4208b/t/59ca56bea9db098f1ff33768/1507713108236/Nivi+Logo?format=2500w)
     center center/cover;
 }
 
-section:nth-of-type(3) .portfolio-wrap #thumb-3 {
+section:nth-of-type(3) .experience-wrap #thumb-3 {
   background: url(img/andela.jpg) center center/cover;
 }
 
-section:nth-of-type(3) .portfolio-wrap #thumb-4 {
+section:nth-of-type(3) .experience-wrap #thumb-4 {
   background: url(img/emjay-solutions.jpg) center center/cover;
 }
 
@@ -536,7 +536,7 @@ footer .footnote .highlight {
 }
 
 @media screen and (min-width: 320px) {
-  section:nth-of-type(3) .portfolio-wrap #thumb-2 {
+  section:nth-of-type(3) .experience-wrap #thumb-2 {
     min-width: 0px;
   }
   section:nth-of-type(3) .nivi {
@@ -628,7 +628,7 @@ footer .footnote .highlight {
   section:nth-of-type(3) .flex.row {
     flex-direction: row;
   }
-  section:nth-of-type(3) .portfolio-wrap {
+  section:nth-of-type(3) .experience-wrap {
     width: 400px;
   }
   /* section:nth-of-type(3) .thumb {
@@ -648,7 +648,7 @@ footer .footnote .highlight {
     font-size: 11pt;
     line-height: 15pt;
   }
-  section:nth-of-type(3) .portfolio-wrap #thumb-2 {
+  section:nth-of-type(3) .experience-wrap #thumb-2 {
     min-width: 0;
   }
   section:nth-of-type(4) form {
@@ -690,18 +690,18 @@ footer .footnote .highlight {
   section:nth-of-type(2) .flex.row {
     flex-direction: row;
   }
-  section:nth-of-type(3) .portfolio-wrap {
+  section:nth-of-type(3) .experience-wrap {
     width: 400px;
     margin: 0 0 50px 20px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  section:nth-of-type(3) .portfolio-wrap {
+  section:nth-of-type(3) .experience-wrap {
     width: 270px;
     margin: 0 0 50px 20px;
   }
-  section:nth-of-type(3) .portfolio-wrap #thumb-3 {
+  section:nth-of-type(3) .experience-wrap #thumb-3 {
     background: url(img/andela3.jpg) center center/cover;
   }
 }
