@@ -48,8 +48,8 @@ $(function() {
     if (pos2 > $("#about").offset().top) {
       highlightLink("about");
     }
-    if (pos2 > $("#portfolio").offset().top) {
-      highlightLink("portfolio");
+    if (pos2 > $("#experience").offset().top) {
+      highlightLink("experience");
     }
     if (
       pos2 > $("#contact").offset().top ||
@@ -98,16 +98,16 @@ $(function() {
     $(".link-wrap").toggleClass("visible");
   });
 
-  $(".portfolio-wrap").hover(
+  $(".experience-wrap").hover(
     function() {
-      $(".portfolio-wrap")
+      $(".experience-wrap")
         .not(this)
         .addClass("fade");
       $(this).addClass("hover");
     },
     function() {
       $(this).removeClass("hover");
-      $(".portfolio-wrap").removeClass("fade");
+      $(".experience-wrap").removeClass("fade");
     }
   );
 
