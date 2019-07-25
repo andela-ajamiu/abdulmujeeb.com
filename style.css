@@ -134,7 +134,7 @@ nav .link-wrap {
 }
 
 nav .link-wrap.visible {
-  height: 180px;
+  height: 220px;
 }
 
 nav div.active {
@@ -217,13 +217,6 @@ section:nth-of-type(2) .skills-wrapper .label {
   font-weight: bold;
 }
 
-/* .flex-50-gt-sm {
-  flex: 1 1 50%;
-  max-width: 50%;
-  max-height: 100%;
-  box-sizing: border-box;
-} */
-
 section .flex-50-gt-sm {
   display: block;
 }
@@ -239,7 +232,8 @@ section:nth-of-type(2) .highlight {
 }
 
 section:nth-of-type(2) .bar {
-  color: #666;
+  color: #000000;
+  /* font-weight: bold; */
   height: 22px;
   position: relative;
   background-color: #eee;
@@ -269,7 +263,7 @@ section:nth-of-type(2) .bar .tag {
   background-color: #04c2c9;
   color: #fff;
   height: 100%;
-  width: 160px;
+  width: 115px;
 }
 
 section:nth-of-type(2) .bar span {
@@ -622,6 +616,9 @@ footer .footnote .highlight {
     margin: 0 0 15px 0;
     font-size: 11pt;
   }
+  section:nth-of-type(2) .bar .tag {
+    width: 170px;
+  }
   section:nth-of-type(3) {
     padding: 120px 0 150px 0;
   }
@@ -677,15 +674,13 @@ footer .footnote .highlight {
   }
   .flex-50-gt-sm {
     flex: 1 1 50%;
-    max-width: 50%;
+    max-width: 45%;
     max-height: 100%;
+    margin: auto;
     box-sizing: border-box;
   }
   section:nth-of-type(2) .bars-wrap {
     margin: 0 0 0 0;
-  }
-  section:nth-of-type(2) .bar {
-    max-width: 90%;
   }
   section:nth-of-type(2) .flex.row {
     flex-direction: row;
