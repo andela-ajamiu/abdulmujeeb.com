@@ -124,7 +124,6 @@ nav {
 
 nav .link-wrap {
   max-width: 1200px;
-  width: 100%;
   position: absolute;
   top: 53px;
   background: #333;
@@ -170,6 +169,10 @@ section .container {
   box-sizing: border-box;
 }
 
+section:nth-of-type(2) .container {
+  padding: 0 20px 0 10px;
+}
+
 .header {
   font-size: 22pt;
   font-weight: bold;
@@ -200,6 +203,7 @@ section:nth-of-type(2) {
 section:nth-of-type(2) .skills-wrapper {
   align-items: flex-start;
   width: 100%;
+  margin: 40px 0 0 0;
 }
 
 section:nth-of-type(2) .skills-wrapper .me {
@@ -588,13 +592,6 @@ footer .footnote .highlight {
   nav .mdi-menu {
     display: none;
   }
-  nav .link-wrap {
-    position: initial;
-    background: none;
-    overflow: visible;
-    height: initial;
-    text-align: left;
-  }
   .header {
     font-size: 30pt;
   }
@@ -605,11 +602,11 @@ footer .footnote .highlight {
     font-size: 18pt;
   }
   section:nth-of-type(2) .skills-wrapper > .flex:first-child {
-    padding: 0 50px 0 50px;
+    padding: 0 40px 0 20px;
   }
   section:nth-of-type(2) .skills-wrapper .me {
-    height: 250px;
-    margin-bottom: 30px;
+    height: 300px;
+    margin-bottom: 40px;
   }
   section:nth-of-type(2) .bar {
     height: 28px;
@@ -658,7 +655,7 @@ footer .footnote .highlight {
     font-size: 16pt;
   }
   section:nth-of-type(2) .skills-wrapper {
-    margin: 50px 0 0 0;
+    margin: 10px 0 0 0;
   }
   .flex.row-gt-sm {
     flex-direction: row;
@@ -678,6 +675,9 @@ footer .footnote .highlight {
     max-height: 100%;
     margin: auto;
     box-sizing: border-box;
+  }
+  nav .link-wrap div {
+    margin: 0 32px;
   }
   section:nth-of-type(2) .bars-wrap {
     margin: 0 0 0 0;
