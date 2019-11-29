@@ -114,7 +114,8 @@ $(function() {
   // CONTACT FORM
   $("#contact-form").on("submit", e => {
     e.preventDefault();
-
+    const recaptchaToken = document.getElementById('g-recaptcha-response').value;
+    if (recaptchaToken) {
     const name = $("#name")
       .val()
       .trim();
@@ -146,6 +147,9 @@ $(function() {
       $("#close").click(function() {
         $("#success").removeClass("expand");
       });
-    });
+    });      
+    } else {
+      alert('No offence, but I\'ll like to deal with Humans only :) \n\n Tick the checkbox to confirm you are one!')
+    }
   });
 });
